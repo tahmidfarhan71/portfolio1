@@ -11,7 +11,7 @@ h3{
 .color{
     color: orange;
 }
-section{
+.first-two-pages{
     display: flex;
     margin-bottom: 100px;
 }
@@ -38,4 +38,29 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.series-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+}
+#border-slice1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#border-slice2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(179, 55, 117), rgb(26, 31, 102));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
